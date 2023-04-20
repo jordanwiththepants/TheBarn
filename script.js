@@ -28,7 +28,6 @@ function RAHH(){
         poop.classList.add("hidden")
         transstate = true;
         setTimeout(function(){
-            if(count )
             poop.innerHTML = prompts[count];
             count +=1 ;
         }, 1000);
